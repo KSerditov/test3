@@ -8,12 +8,13 @@ public class Lesson1 {
             int fNum = Integer.parseInt(args[0]);
             Fibo fibo = new Fibo();
             if (fNum > 0) {
-                fibo.FindFibo(fNum);
+                System.out.println(fibo.FindFibo(fNum));
             } else {
                 System.out.print("Nothing to show here");
             }
         }
-
+        Dog dg = new Dog(5, 10);
+        dg.Bark3();
 
         // write your code here
        /* System.out.println("Lesson1");

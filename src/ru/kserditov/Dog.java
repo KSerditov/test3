@@ -33,4 +33,8 @@ public class Dog {
         Bark();
     }
 
+    protected void Bark3(){
+        System.out.println("Bark");
+    }
+
 }

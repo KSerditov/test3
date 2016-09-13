@@ -12,6 +12,7 @@ public class DogExtended extends Dog {
     //Method Bark was already defined in Dog class, if we want to change it we need to override.
     @Override
     public int Bark(){
+        super.Bark3();
         return 0;
     }
 }
