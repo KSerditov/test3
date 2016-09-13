@@ -16,3 +16,5 @@ Task 2.
 2.3 Create derived class from base class and redefine second method.
 2.4 Create object of derived class and make upcasting to base class. Invoke first method - which methods are executed and from which classes?
 
+Submit results into you github!
+
