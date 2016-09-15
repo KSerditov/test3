@@ -4,7 +4,7 @@ package ru.kserditov;
  * Created by serdi on 06.09.2016.
  */
 //Base class for all dogs
-public class Dog {
+public class Dog implements IProcessor{
 
     //Properties (or fields)
     public int age;
@@ -37,4 +37,8 @@ public class Dog {
         System.out.println("Bark");
     }
 
+    @Override
+    public Object process(Object input) {
+        return null;
+    }
 }

@@ -94,9 +94,9 @@ public class Lesson1 {
     // Homework
     // Calculate Fibonacchi numbers:1, 1, 2, 3, 5, 8,...
     // n3 = n2 + n1
-    // input: number of fibonacchi numbers for output
-    // Example of output for input 5: "1, 1, 2, 3, 5"
-    // Example of output for input 8: "1, 1, 2, 3, 5, 8, 13, 21"
+    // process: number of fibonacchi numbers for output
+    // Example of output for process 5: "1, 1, 2, 3, 5"
+    // Example of output for process 8: "1, 1, 2, 3, 5, 8, 13, 21"
     // Additional: Make it as separate class with method which returns string
 
 }
