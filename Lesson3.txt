@@ -14,3 +14,7 @@ ResetU method reset link in the array on position specified by argument.
 InvokeAll method goes through the array and invokes all U's methods.
 2.4 In main create several A objects and one B object. Populate B object with U links what were created by A objects.
 Delete few U links from B. Call InvokeAll.
+
+
+Make sure to follow naming convensions. Here is the reference:
+http://www.oracle.com/technetwork/java/codeconventions-150003.pdf
