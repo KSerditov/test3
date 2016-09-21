@@ -1,11 +1,14 @@
 package ru.kserditov;
 
+import java.util.Random;
+
 /**
  * Created by serdi on 13.09.2016.
  */
-public class Cat {
+public class Cat implements Comparable {
 
     public static int i = 0;//static field - exists without object and can be accesses as Cat.i
+    public int i2;
     private static int j = 0;
     static Dog dg = new Dog();//composition - including other class objects in this class
     public Dog dg2 = new Dog();
@@ -15,6 +18,8 @@ public class Cat {
 
     private Cat(){
         i++;
+        Random rn = new Random();
+        i2 =  rn.nextInt(1000);
         System.out.println("Default constructor");
         j++;
     }
@@ -39,4 +44,14 @@ public class Cat {
         dg.Bark();
     }
 
+    @Override
+    public int compareTo(Object o) {
+        if( i2 == ((Cat)o).i2 ) {
+            return 0;
+        } else
+        if( i2 > ((Cat)o).i2 ) {
+            return 1;
+        }
+        return -1;
+    }
 }

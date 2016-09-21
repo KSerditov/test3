@@ -60,6 +60,8 @@ public class Lesson3 {
         // Let's send few Dogs in parcel, see Parcel.java and come back here
         Parcel p = new Parcel();
         p.newDogInside();
+        IDog pd = p.newDogInside();
+        pd.woof();
 
         // You can make interfaces inside interfaces
         // You can make classes inside interfaces!
@@ -94,6 +96,13 @@ public class Lesson3 {
         List<Object> lst2 = new ArrayList<Object>();
         try {
             Dog testdg = (Dog) lst2.get(0);
+        } catch(Exception e){
+
+        }
+
+        List<Dog> lst3 = new ArrayList<Dog>();
+        try {
+            Dog testdg = lst3.get(0);
         } catch(Exception e){
 
         }
