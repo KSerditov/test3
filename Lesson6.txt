@@ -1,0 +1,16 @@
+Task 1.
+1.1 Create three level class structure of any type you want (or just take my example). For example:
+Pet (higest level) - Dog - York
+Pet - Dog - Pug
+Pet - Dog - Labrador
+Pet - Cat - Sphynx
+Pet - Cat - Siamese
+Pet - Rodent - Hamster
+1.2 Create class PetCreator which accepts container with types to create and has method to return ArrayList<Pet> populated with requested objects.
+Number of objects is a method parameter.
+1.3 Create class PetCount which calculates count of objects (result is stored in Map container) for each type presented within ArrayList<Pet> from 1.2
+1.4 Include into calculation not only exact class, but also superclass. For example, if we have one object of type Labrador, then result should be the following:
+Labrador 1
+Dog 1
+Pet 1
+1.5 In your main method Populate ArrayList<Pet> with objects using PetCreator and print counters using PetCount class.
